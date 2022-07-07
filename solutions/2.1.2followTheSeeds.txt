@@ -4,10 +4,6 @@ void followTheSeeds(){
     }
 }
 
-
-
-
-
 void doSomething(){
     while(beeperAhead()){
         moveForward();
