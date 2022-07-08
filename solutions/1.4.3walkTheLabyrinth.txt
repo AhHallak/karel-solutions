@@ -1,6 +1,5 @@
 void walkTheLabyrinth(){
     if(!frontIsClear()){
-
         while(!frontIsClear()){
 		turnRight();
 	}    
