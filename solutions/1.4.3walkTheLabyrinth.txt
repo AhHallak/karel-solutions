@@ -1,6 +1,8 @@
 void walkTheLabyrinth(){
     if(!frontIsClear()){
-        while(!frontIsClear()){turnRight();}    
+        while(!frontIsClear()){
+		turnRight();
+	}    
     }
     while(!onBeeper()){
         while(frontIsClear() && !leftIsClear() && !rightIsClear() && !onBeeper()) {
