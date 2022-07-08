@@ -1,10 +1,10 @@
 void followTheSeeds(){
     while(beeperAhead()){
-        doSomething();
+        helpFunction();
     }
 }
 
-void doSomething(){
+void helpFunction(){
     while(beeperAhead()){
         moveForward();
         pickBeeper();

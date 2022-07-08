@@ -1,10 +1,10 @@
 void cleanTheTunnels(){
     while(frontIsClear() || onBeeper()){
-        doSomething();
+        helpFunction();
     }
 }
 
-void doSomething(){
+void helpFunction(){
     turnLeft();
     while(onBeeper()){
         pickBeeper();
