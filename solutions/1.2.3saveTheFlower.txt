@@ -9,7 +9,7 @@ void saveTheFlower()
             turnRight();
             moveForward();
         }
-        if(!rightIsClear() && leftIsClear() && frontIsClear()){
+        if(!rightIsClear() && frontIsClear() && leftIsClear()){
             dropBeeper();
             moveForward();
             turnRight();
